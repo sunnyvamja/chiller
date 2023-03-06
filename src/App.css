@@ -1,0 +1,258 @@
+/* Admin-Panel */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  width: 250px;
+  height: 100vh;
+}
+.boxes{
+  /* border: 1px solid brown; */
+  width: 15%;
+  display: flex !important;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  padding-left: 15px;
+  color: #fff;
+  width: 226px !important;
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  color: #ffffff9f;
+}
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+
+/* Login/Register */
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+  color: white !important;
+}
+
+
+.set{
+  width: 70% !important;
+  position: absolute !important;
+  top: 20px !important;
+  left: 300px !important;
+}
+#form{
+    width: 60% !important;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.inpt{
+    width: 100%;
+    padding: 4px;
+}
+.inpts{
+    border: 1px solid #736e6e;;
+    width: 95%;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.btn_sub{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(11, 108, 11);
+    color: white;
+    padding: 8px 13px;
+    cursor: pointer;
+}
+.inptss{
+  border: 1px solid black !important;
+  border-radius: none !important;
+  width: 100% !important;
+  margin-left: -1px !important;
+}
+.inptsss{
+  padding-left: 10px;
+}
+table{
+    width: 100%;
+}
+.btn_edit{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(11, 34, 108);
+    color: white;
+    padding: 8px 13px;
+    cursor: pointer;
+}
+.btn_delete{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 8px 13px;
+    cursor: pointer;
+}
+
+#back{
+  background-color: rgba(47, 79, 79, 0.849);
+  width: 15% !important;
+}
+#back:hover{
+  background-color: darkslategray;
+}
+
+
+
+
+/* Registration Form */
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#forms{
+    width: 35%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+#form{
+    width: 35%;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,115,121,1) 100%);
+    padding: 20px;
+}
+.form-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 200px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 95%;
+  padding: 6px;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="button"] {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #4c51af;
+  color: white;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #3e468e;
+}
+
+h1{
+    text-align: center;
+    /* color: seagreen; */
+    background: linear-gradient(to right, #f32170,
+					#ff6b08, #cf23cf, #eedd44);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+}
+h2 {
+  text-align: center;
+}
+
+label{
+    color: #736e6e;
+    margin: 10px 10px;
+}
+
+.btn_home{
+  width: 20% !important;
+  background-color: red !important;
+}
+
+#page{
+  color: red !important;
+}
+
+#page_not{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+}
